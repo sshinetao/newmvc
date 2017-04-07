@@ -1,0 +1,17 @@
+{
+  "require": {
+    "codingbean/macaw": "dev-master",
+     "xiaoler/blade":"*",
+     "illuminate/database": "*",
+     "filp/whoops": "*",
+     "predis/predis": "*",
+     "nette/mail": "*"
+  },
+  "autoload": {
+    "classmap": [
+      "app/controllers",
+      "app/models",
+      "core"
+    ]
+  }
+}
