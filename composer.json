@@ -1,17 +1,18 @@
 {
-  "require": {
-    "codingbean/macaw": "dev-master",
-     "xiaoler/blade":"*",
-     "illuminate/database": "*",
-     "filp/whoops": "*",
-     "predis/predis": "*",
-     "nette/mail": "*"
-  },
-  "autoload": {
-    "classmap": [
-      "app/controllers",
-      "app/models",
-      "core"
-    ]
-  }
+    "require": {
+        "codingbean/macaw": "dev-master",
+        "gregwar/captcha": "dev-master",
+        "xiaoler/blade": "*",
+        "illuminate/database": "*",
+        "filp/whoops": "*",
+        "predis/predis": "*",
+        "nette/mail": "*",
+        "phpunit/phpunit": "5.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core/",
+            "App\\": "app/"
+        }
+    }
 }

@@ -1,4 +1,5 @@
 <?php
+namespace Core;
 
 class View {
 	const VIEW_PATH = [BASE_PATH . '/app/views'];

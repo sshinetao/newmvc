@@ -1,5 +1,12 @@
 <?php
+namespace App\Models;
 
-class User extends \Illuminate\Database\Eloquent\Model {
+use Core;
+class User extends Core\Model {
+    protected $table    = 'users';
+    public $timestamps  = false;
 
+    public function add(){
+
+    }
 }

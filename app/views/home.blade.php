@@ -5,8 +5,10 @@
     <title>home view</title>
 </head>
 <body>
+
     @foreach($data as $v)
-        title:{{ $v['id'] }}<br/>
+        title:{{ $v->id}}<br/>
     @endforeach
+    {{ $data->links() }}
 </body>
 </html>
